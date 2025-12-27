@@ -8,6 +8,9 @@ if exists("b:current_syntax")
 endif
 
 let b:current_syntax = "machikania"
+set ts=1
+set sw=1
+set showmatch
 
 " Keywords
 syntax keyword machiKaniaLanguageKeywords BGCOLOR CDATA CLEAR CLS COLOR
