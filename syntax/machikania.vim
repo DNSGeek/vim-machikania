@@ -11,6 +11,7 @@ let b:current_syntax = "machikania"
 set ts=1
 set sw=1
 set showmatch
+syn case ignore
 
 " Keywords
 syntax keyword machiKaniaLanguageKeywords BGCOLOR CDATA CLEAR CLS COLOR
