@@ -3,11 +3,11 @@
 " Maintainer: Thomas Knox
 " Latest Revision: 14 Dec 2025
 
-if exists("b:current_syntax")
+if exists('b:current_syntax')
     finish
 endif
 
-let b:current_syntax = "machikania"
+let b:current_syntax = 'machikania'
 set ts=1
 set sw=1
 set showmatch
